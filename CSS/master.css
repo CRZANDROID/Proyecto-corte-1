@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold');
+@import url('http://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans&family=Roboto&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../Images/fondo-inicio.jpg");
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+} 
+header .contenedor-menu .user-inicio a{
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+header .contenedor-menu .user-inicio a:hover{
+  border-radius: 10px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+}
+header .contenedor-menu .user-inicio{
+  margin-left: 400px;
+}
+
+header .contenedor-menu .image-menu img{
+height: 64px;
+width: 64px;
+margin-left: 1%;
+
+}
+header .contenedor-menu{
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+header .menu1{
+  display: block;
+}
+  header .menu {
+    margin: 10px 40px;
+    text-align: right; }
+      header .menu li{
+        display:inline-block;
+
+      }
+  header .menu li ul {
+    display: none;
+    position: absolute;
+
+  }
+  header .menu li:hover ul {
+    width: 180px;
+    z-index: 3;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    color: #000;
+    text-align: left;
+
+  }
+  header .contenedor-menu{
+    display: flex;
+    flex-direction: row;
+  }
+    header .contenedor-menu .menu1 .menu a {
+      margin: 0px 30px;
+      padding-top: 10px;
+      color: #fff;
+      padding-bottom: 9px;
+      font-size: 12px;
+      display: inline-block;
+      text-decoration: none;
+    transition: all 0.5s ease;}
+      header .contenedor-menu .menu1 .menu a:hover {
+        font-size: 20px;
+      }
+
+
+.box ul li{
+color: #E74C3C;
+}
+
+.box form{
+  margin-left: 20%;
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.box input {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.box input[type="text"], .box input[type="password"] {
+  border: none;
+  background: #E5E8E8;
+  border-radius: 10px;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+
+.box input[type="button"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #EB984E;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.box input[type="button"]:hover {
+  cursor: pointer;
+  background: #58D68D;
+  color: #000;
+}
+
+.box .casos a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.box .casos a:hover {
+  color: #000;
+}
+
+footer{
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 600px;
+  padding: 10px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+footer .contacto h5{
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans','Arial';
+}
+footer .contacto a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans','Arial';
+}
+
+footer .contacto {
+  margin-left: 40px;
+}
+footer .derechos p{
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans','Arial';
+  margin-top: 22.5px;
+}
+footer .derechos{
+  margin-left: 1000px;
+}
+

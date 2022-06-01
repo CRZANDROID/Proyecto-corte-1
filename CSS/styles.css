@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold');
+@import url('http://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto&display=swap');
+
+
+html{scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: 'Open Sans','Arial';
+  font-size: 16px;
+  background: url("../Images/fondo.png");
+  background-size: cover;
+background-repeat: no-repeat;
+}
+/*------------MENU CSS--------------------*/
+header .contenedor-menu .user-inicio a{
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+header .contenedor-menu .user-inicio a:hover{
+  border-radius: 10px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+}
+header .contenedor-menu .user-inicio{
+  margin-left: 400px;
+}
+
+header .contenedor-menu .image-menu img{
+height: 64px;
+width: 64px;
+margin-left: 1%;
+
+}
+header .contenedor-menu{
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+header .menu1{
+  display: block;
+}
+  header .menu {
+    margin: 10px 40px;
+    text-align: right; }
+      header .menu li{
+        display:inline-block;
+
+      }
+  header .menu li ul {
+    display: none;
+    position: absolute;
+
+  }
+  header .menu li:hover ul {
+    width: 180px;
+    z-index: 3;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    color: #000;
+    text-align: left;
+
+  }
+  header .contenedor-menu{
+    display: flex;
+    flex-direction: row;
+  }
+    header .contenedor-menu .menu1 .menu a {
+      margin: 0px 30px;
+      padding-top: 10px;
+      color: #fff;
+      padding-bottom: 9px;
+      font-size: 12px;
+      display: inline-block;
+      text-decoration: none;
+    transition: all 0.5s ease;}
+      header .contenedor-menu .menu1 .menu a:hover {
+        font-size: 20px;
+      }
+
+
+  /*---------main--------------*/
+
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+.main .info{
+ margin-top: 200px;
+}
+    .main .info .texto h3{
+      color: #fff;
+      font-family: 'BeaufortforLOL-Bold', sans-serif;
+      font-size: 76px;
+    }
+    .main .info .texto p{
+      color: #fff;
+      font-family: 'BeaufortforLOL-Bold', sans-serif;
+      width: 500px;
+      text-align: center;
+      margin: 0px;
+      margin-left: 340px;
+      margin-top: 20px;
+    }
+    .main .info {
+      justify-content: center;
+    }
+    footer{
+      background: rgba(0, 0, 0, 0.3);
+      margin-top: 300px;
+      padding: 10px;
+      padding-top: 15px;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 15px;
+    }
+    footer .contacto h5{
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Open Sans','Arial';
+    }
+    footer .contacto a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Open Sans','Arial';
+    }
+
+    footer .contacto {
+      margin-left: 40px;
+    }
+    footer .derechos p{
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Open Sans','Arial';
+      margin-top: 22.5px;
+    }
+    footer .derechos{
+      margin-left: 1000px;
+    }
+   .column  h1{
+    color: white;
+   }
+   
+  .champ1 h1{
+    color: white;
+    margin-top: 150px;
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+  }
+  .champ2 h1 {
+    color: white;
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+    margin-top: 150px;
+  }
+  .champ3 h1{
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+    margin-top: 150px;
+    color: white;
+  }
+ 
+   .main img {
+      margin: 20px;
+    }
+    .items h1{
+      font-family: 'BeaufortforLOL-Bold', sans-serif;
+      margin-top: 150px;
+      color: white;
+    }
+    .items a{
+      font-family: 'BeaufortforLOL-Bold', sans-serif;
+      color: white;
+    }
+    .items img{
+      width: 150px;
+    }
+  .items img{
+    margin: 20px;
+  }
+  .infoChamp .skin img{
+   
+    width: 250px;
+  } 
+  .infoChamp h3{
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+      margin-top: 10px;
+      color: white;
+  }
+  .infoChamp p{
+    color: #fff;
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+    width: 500px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 340px;
+    margin-top: 10px;
+    
+  }
+  
